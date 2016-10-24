@@ -1,5 +1,5 @@
 /**
- * Created by Rost on 21.10.2016.
+ * Wrong! Need to fix.
  */
 import java.lang.Object;
 
