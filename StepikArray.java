@@ -17,6 +17,6 @@ public class StepikArray {
             }
         }
         System.out.println(a3); // your implementation here
-    }
-    }
+        }
 }
+
