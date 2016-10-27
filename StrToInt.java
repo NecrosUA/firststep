@@ -16,7 +16,7 @@ public class StrToInt {
         int near = array[0];
 
         for (int i = 0; i < array.length; i++){
-                if (Math.abs(array[i]) < Math.abs(near)){
+                if (Math.abs(array[i]) <= Math.abs(near)){
                     near = array[i];
                 }
         }
