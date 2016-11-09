@@ -17,12 +17,12 @@ public class StringFormat {
             System.out.println(roles[i] + ":"); // Print all roles with ":" symbol
                 for (int j = 0; j < textLines.length; j++){ //Another one loop for textlines
                     if (textLines[j].startsWith(roles[i])){ //If text lines strats with role described in roles array true...
-                        System.out.println((j+1)+") " +textLines[j].substring(roles[i].length()+2)); //...than print on display number of the line and tet line of specific role, without role and ":" symbol
+                        System.out.println((j+1)+")" +textLines[j].substring(roles[i].length()+1)); //...than print on display number of the line and text of specific role, without role name and ":" symbol
                     }
                 }
-
+            System.out.print("\n");
         }
 
-
+     //return ""; //uncomment it for stepik
     }
 }
